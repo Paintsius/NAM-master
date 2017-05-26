@@ -1,0 +1,34 @@
+#overview {
+  background-image: url('../img/blue-gradient.svg');
+  color: white;
+
+}
+
+.tagline h1 {
+	height: auto;
+	text-align: left;
+	display: inline-block;
+	position: relative;
+}
+
+.fade-underline {
+	width: 100%;
+	display: block;
+	position: absolute;
+	margin: auto;
+}
+
+.fade-underline img {
+	width: 100%;
+	display: inline-block;
+}
+
+.info-block {
+	 max-width: 500px;
+	 padding-top: 5%;
+	 padding-bottom: 5%;
+}
+
+.info-block .content {
+	margin-top: 5%;
+}

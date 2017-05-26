@@ -1,0 +1,117 @@
+#pin {
+  visibility: hidden;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  bottom: auto;
+  right: auto;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  background-color: white;
+  margin: 0px !important;
+  height: 65px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 9px -2px;
+}
+
+.logo-small {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  max-width: 130px;
+  height: 64px;
+  float: left;
+ }
+
+ header a {
+   color: black;
+ }
+
+ .mdl-layout__container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+ .mdl-layout__drawer-button {
+    color: black !important;
+    opacity: 1;
+    display: none;
+}
+
+.mdl-layout__header .mdl-navigation__link {
+color:black;
+
+}
+
+.mdl-layout__header .mdl-navigation__link:hover {
+    color: blue;
+}
+
+.mdl-layout__header {
+
+}
+
+.mdl-layout__header-row .mdl-navigation {
+    float: right;
+}
+
+.mdl-layout-title {
+  display: inline-block;
+  float: left;
+}
+
+.menu-squeeze {
+  width: 80%;
+  display: inline-block;
+  margin: auto;
+  height: inherit;
+  position: relative;
+}
+
+.scrollmagic-pin-spacer {
+  min-height: 0px;
+}
+
+#mobileMenuController {
+  display: inline-block;
+  float: right;
+  height: 65px;
+  position: relative;
+  top: 5px;
+}
+
+@media only screen and (min-width:320px) {
+
+
+
+}
+@media only screen and (min-width:480px) {
+
+
+}
+@media only screen and (min-width:768px) {
+
+
+}
+@media only screen and (min-width:1024px) {
+
+  #mobileMenuController {
+    display: none;
+  }
+
+
+}
+@media only screen and (min-width:1140px) {
+
+
+
+
+}
+@media only screen and (min-width:1280px) {
+
+
+
+
+}

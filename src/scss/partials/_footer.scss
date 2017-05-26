@@ -1,0 +1,30 @@
+.footer {
+background-color: #333333;
+min-height: 50vh;
+}
+
+.footer a {
+	color:white;
+	text-decoration: none;
+}
+
+.footer ul {
+	list-style-type: none;
+	display: table;
+	width: 80%;
+	position: relative;
+	margin: auto;
+	padding-top: 10vh;
+}
+
+.footer ul li {
+	list-style-type: none;
+	display: table-cell;
+}
+
+.footer ul li a img {
+	height: 25px;
+	width: 30px;
+	display: inline-block;
+
+}
