@@ -101,3 +101,50 @@ $('.button-group').each( function( i, buttonGroup ) {
     $( this ).addClass('is-checked');
   });
 });
+
+
+// ck
+$(function() {
+    $('.clientClass').hide();
+    $('.affsClass').hide();
+    $('.teamClass').hide();
+    $('.contactClass').hide();
+
+  $('.clientsTab').on('click', function(){
+    $('.clientClass').hide();
+    $('.affsClass').hide();
+    $('.teamClass').hide();
+    $('.contactClass').hide();
+    $('.clientClass').show(200);
+
+  });
+
+  $('.affsTab').on('click', function(){
+    $('.clientClass').hide();
+    $('.affsClass').hide();
+    $('.teamClass').hide();
+    $('.contactClass').hide();
+    $('.affsClass').show(200);
+
+  });
+
+  $('.teamTab').on('click', function(){
+    $('.clientClass').hide();
+    $('.affsClass').hide();
+    $('.teamClass').hide();
+    $('.contactClass').hide();
+    $('.teamClass').show(200);
+
+  });
+
+  $('.contactTab').on('click', function(){
+    $('.clientClass').hide();
+    $('.affsClass').hide();
+    $('.teamClass').hide();
+    $('.contactClass').hide();
+    $('.contactClass').show(200);
+
+  });
+
+
+});
