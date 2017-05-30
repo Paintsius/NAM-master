@@ -143,6 +143,7 @@ $(function() {
     $('.teamClass').hide();
     $('.contactClass').hide();
     $('.contactClass').show(200);
+    
 
   });
 
